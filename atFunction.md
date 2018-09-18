@@ -1,4 +1,6 @@
-Ecrire des fonctions pour: [video]()
+Ecrire des fonctions pour: 
+
+[video]() (En cours d'upload)
 
 Simplement afficher la chaîne “Hello World!”
 
