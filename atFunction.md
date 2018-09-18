@@ -34,7 +34,7 @@ Renvoyer l’addition de deux valeurs entières passées en entrée
 
 ```
  const add = (a, b) => {
- return a + b
+  return a + b
  }
  const poulet = 2
  const yolo = 8
@@ -53,10 +53,10 @@ starStr(poulet)
 
 ```
 const entourerAvecDesEtoiles = (myString) => {
-let deconstruireMyString = myString.split("")
-deconstruireMyString.push("_")
-deconstruireMyString.unshift("_")
-return deconstruireMyString.join("")
+  let deconstruireMyString = myString.split("")
+  deconstruireMyString.push("_")
+  deconstruireMyString.unshift("_")
+  return deconstruireMyString.join("")
 }
 
 const maPhrase = "David Bowie"
