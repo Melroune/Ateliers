@@ -11,17 +11,6 @@ string('poulet')
 ```
 
 Renvoyer à l’ identique le paramètre passé en entrée
-
-```
-const double = number => {
-  return number * 2
-}
-
-console.log(double(3))
-```
-
-Renvoyer le double de la valeur entière passée en entrée
-
 ```
 const same = (para) => {
   return para
@@ -29,6 +18,16 @@ const same = (para) => {
 
  const pouet = same('poulet')
  console.log(pouet)
+```
+
+Renvoyer le double de la valeur entière passée en entrée
+
+```
+const double = number => {
+  return number * 2
+}
+
+console.log(double(3))
 ```
 
 Renvoyer l’addition de deux valeurs entières passées en entrée
@@ -50,7 +49,9 @@ const starStr = str => {
 }
 const poulet = 'abdou'
 starStr(poulet)
+```
 
+```
 const entourerAvecDesEtoiles = (myString) => {
 let deconstruireMyString = myString.split("")
 deconstruireMyString.push("_")
