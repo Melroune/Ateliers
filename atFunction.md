@@ -4,7 +4,7 @@ Ecrire des fonctions pour:
 
 Simplement afficher la chaîne “Hello World!”
 
-```
+```javascript
 const string = (sentence) => {
   console.log('Hello World!');
   console.log(sentence);
@@ -13,7 +13,7 @@ string('poulet')
 ```
 
 Renvoyer à l’ identique le paramètre passé en entrée
-```
+```javascript
 const same = (para) => {
   return para
 }
@@ -24,7 +24,7 @@ const same = (para) => {
 
 Renvoyer le double de la valeur entière passée en entrée
 
-```
+```javascript
 const double = number => {
   return number * 2
 }
@@ -34,7 +34,7 @@ console.log(double(3))
 
 Renvoyer l’addition de deux valeurs entières passées en entrée
 
-```
+```javascript
  const add = (a, b) => {
   return a + b
  }
@@ -45,7 +45,7 @@ Renvoyer l’addition de deux valeurs entières passées en entrée
 
 Renvoyer, à partir d’une chaîne de caractères passée en entrée, la même chaîne entourée du caractère * (‘John’ => ‘*John\*’)
 
-```
+```javascript
 const starStr = str => {
   console.log("_" + str + "_")
 }
@@ -53,7 +53,7 @@ const poulet = 'abdou'
 starStr(poulet)
 ```
 
-```
+```javascript
 const entourerAvecDesEtoiles = (myString) => {
   let deconstruireMyString = myString.split("")
   deconstruireMyString.push("_")
